@@ -1,8 +1,20 @@
 class Animal {
+
+    // attributes / properties / Data Members
+
     String color;
     String name;
     String breed;
     int age;
+
+    // methods
+    void eat(){
+        System.out.println(name + " is eating");
+    }
+
+    void run(){
+        System.out.println(name + " is running");
+    }
 }
 
 public class Basic_Class_Obj {
@@ -26,6 +38,8 @@ public class Basic_Class_Obj {
         lion.name = "Sher";
         lion.age = 22;
 
-        System.out.println(dog1.name);
+        System.out.println(dog1.age);
+
+        lion.run();
     }
 }

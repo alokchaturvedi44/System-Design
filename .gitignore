@@ -1,11 +1,11 @@
 # Ignore everything
 *
 
-# But allow directories
+# Allow directories
 !*/
 
 # Allow Java source files
 !**/*.java
 
-# Allow this gitignore file
+# Allow gitignore
 !.gitignore
